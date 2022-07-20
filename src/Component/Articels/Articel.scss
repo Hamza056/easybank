@@ -1,0 +1,47 @@
+.Main-A{
+    padding-inline: 5rem;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 800px) {
+        padding-inline: 0;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    }
+    .Articel-main{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-inline: 2rem;
+        }
+        .Articel{
+            display: flex;
+            flex-direction: column;
+           
+            img{
+               max-width: 100%;
+               height: 13rem;
+               @media screen and (max-width: 800px) {
+                height: auto;
+            }
+            }
+            p{
+                color: gray;
+            }
+            h3{
+                font-size: 1.5rem;
+                font-weight: 600;
+             
+                color: hsl(233, 26%, 24%);
+                transition: all .8s;
+             &:hover{
+                color: hsl(192, 70%, 51%);
+                cursor: pointer;
+              } }
+
+}   } 

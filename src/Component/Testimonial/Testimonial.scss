@@ -1,0 +1,42 @@
+.main-t{
+    padding: 5rem;
+    @media screen and (max-width: 600px){
+       padding: 0rem;
+      }
+    .Easybook-t{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        @media screen and (max-width: 900px){
+          max-width: 70%;
+        }
+        @media screen and (max-width: 700px){
+            max-width: 100%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
+    }
+    .Testimonial-t{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        @media screen and (max-width: 900px){
+            flex-direction: column;
+        }
+            
+        }
+        .testimonial{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 25%;
+            
+            text-align: center;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }

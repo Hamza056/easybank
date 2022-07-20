@@ -1,0 +1,52 @@
+.Main-A {
+  padding-inline: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 800px) {
+  .Main-A {
+    padding-inline: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Articel-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+  .Articel-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+  }
+}
+.Articel-main .Articel {
+  display: flex;
+  flex-direction: column;
+}
+.Articel-main .Articel img {
+  max-width: 100%;
+  height: 13rem;
+}
+@media screen and (max-width: 800px) {
+  .Articel-main .Articel img {
+    height: auto;
+  }
+}
+.Articel-main .Articel p {
+  color: gray;
+}
+.Articel-main .Articel h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(233deg, 26%, 24%);
+  transition: all 0.8s;
+}
+.Articel-main .Articel h3:hover {
+  color: hsl(192deg, 70%, 51%);
+  cursor: pointer;
+}/*# sourceMappingURL=Articel.css.map */
